@@ -1,301 +1,68 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(
-    MaterialApp(home: ManualLudoBoard(), debugShowCheckedModeBanner: false),
-  );
-}
+void main() => runApp(LudoBoardApp());
 
-class ManualLudoBoard extends StatelessWidget {
-  final double boxSize = 24.0;
-
-  const ManualLudoBoard({super.key});
-
-  Widget box(Color color) {
-    return Container(
-      width: boxSize,
-      height: boxSize,
-      decoration: BoxDecoration(
-        color: color,
-        border: Border.all(color: Colors.black, width: 0.5),
-      ),
-    );
-  }
-
-  Widget row(List<Color> colors) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: colors.map((c) => box(c)).toList(),
-    );
-  }
+class LudoBoardApp extends StatelessWidget {
+  const LudoBoardApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.pink[50],
-      body: SingleChildScrollView(
-        child: Center(
-          child: Column(
-            children: [
-              row([
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.white,
-                Colors.white,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-              ]),
-              row([
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.white,
-                Colors.white,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-              ]),
-              row([
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.white,
-                Colors.white,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-              ]),
-              row([
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.white,
-                Colors.white,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-              ]),
-              row([
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.white,
-                Colors.white,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-              ]),
-              row([
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.red,
-                Colors.white,
-                Colors.white,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-                Colors.green,
-              ]),
-              row([
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.grey[300]!,
-                Colors.grey[300]!,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-              ]),
-              row([
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.grey[300]!,
-                Colors.grey[800]!,
-                Colors.grey[300]!,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-              ]),
-              row([
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.grey[300]!,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-                Colors.white,
-              ]),
-              row([
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.white,
-                Colors.white,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-              ]),
-              row([
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.white,
-                Colors.white,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-              ]),
-              row([
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.white,
-                Colors.white,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-              ]),
-              row([
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.white,
-                Colors.white,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-              ]),
-              row([
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.white,
-                Colors.white,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-              ]),
-              row([
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.yellow,
-                Colors.white,
-                Colors.white,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-                Colors.blue,
-              ]),
-            ],
-          ),
-        ),
+    return MaterialApp(
+      title: 'Custom Ludo Board',
+      home: Scaffold(
+        appBar: AppBar(title: Text('15x15 Ludo Board')),
+        body: LudoBoard(),
       ),
+    );
+  }
+}
+
+class LudoBoard extends StatelessWidget {
+  final int gridSize = 15;
+
+  final List<List<Color>> colorGrid = List.generate(15, (row) {
+    return List.generate(15, (col) {
+      if (row < 6 && col < 6) return Colors.green.shade300;
+      if (row < 6 && col > 8) return Colors.red.shade300;
+      if (row > 8 && col < 6) return Colors.blue.shade300;
+      if (row > 8 && col > 8) return Colors.yellow.shade300;
+      if (row == 7 || col == 7) return Colors.grey.shade300;
+      return Colors.white;
+    });
+  });
+
+  LudoBoard({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        double boardSize = constraints.maxWidth;
+        return Center(
+          child: SizedBox(
+            width: boardSize,
+            height: boardSize, // Ensures square board
+            child: Column(
+              children: List.generate(gridSize, (row) {
+                return Expanded(
+                  child: Row(
+                    children: List.generate(gridSize, (col) {
+                      return Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(color: Colors.black12),
+                            color: colorGrid[row][col],
+                          ),
+                        ),
+                      );
+                    }),
+                  ),
+                );
+              }),
+            ),
+          ),
+        );
+      },
     );
   }
 }
