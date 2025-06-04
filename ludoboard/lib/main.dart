@@ -968,6 +968,102 @@ class LudoBoardApp extends StatelessWidget {
               ],
             ),
             Row(
+              //Row11
+              children: [
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.blue,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.blue,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.blue,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.yellow,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.white,
+                  margin: EdgeInsets.all(2),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.yellow,
+                  margin: EdgeInsets.all(2),
+                ),
+              ],
+            ),
+            Row(
+              //Row12
               children: [
                 Container(
                   width: 50,
@@ -1344,135 +1440,42 @@ class LudoBoardApp extends StatelessWidget {
               ],
             ),
             Row(
+              //Row15
               children: [
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.red,
+                  color: Colors.blue,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.red,
+                  color: Colors.blue,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.red,
+                  color: Colors.blue,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.red,
+                  color: Colors.blue,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.red,
+                  color: Colors.blue,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.red,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.white,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.white,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.white,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.green,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.green,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.green,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.green,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.green,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.green,
-                  margin: EdgeInsets.all(2),
-                ),
-              ],
-            ),
-            Row(
-              children: [
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.red,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.red,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.red,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.red,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.red,
-                  margin: EdgeInsets.all(2),
-                ),
-                Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.red,
+                  color: Colors.blue,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
@@ -1496,37 +1499,37 @@ class LudoBoardApp extends StatelessWidget {
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.green,
+                  color: Colors.yellow,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.green,
+                  color: Colors.yellow,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.green,
+                  color: Colors.yellow,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.green,
+                  color: Colors.yellow,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.green,
+                  color: Colors.yellow,
                   margin: EdgeInsets.all(2),
                 ),
                 Container(
                   width: 50,
                   height: 50,
-                  color: Colors.green,
+                  color: Colors.yellow,
                   margin: EdgeInsets.all(2),
                 ),
               ],
