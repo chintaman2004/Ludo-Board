@@ -13,7 +13,7 @@ class LudoBoardApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Align(alignment: Alignment.center, child: Text("LUDO BOARD")),
+          title: Align(alignment: Alignment.center, child: Text("Ludo Board")),
           titleTextStyle: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
           centerTitle: true,
         ),
