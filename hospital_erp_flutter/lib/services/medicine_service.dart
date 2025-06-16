@@ -1,4 +1,3 @@
-import '../models/medicine_model.dart';
 // Ensure that the Medicine class is defined as:
 // class Medicine {
 //   final String name;
