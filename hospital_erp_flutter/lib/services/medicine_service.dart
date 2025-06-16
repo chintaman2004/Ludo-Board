@@ -1,4 +1,11 @@
 import '../models/medicine_model.dart';
+// Ensure that the Medicine class is defined as:
+// class Medicine {
+//   final String name;
+//   final String type;
+//   final double price;
+//   Medicine({required this.name, required this.type, required this.price});
+// }
 
 class MedicineService {
   Future<List<Medicine>> getPanelMedicines() async {
@@ -8,4 +15,12 @@ class MedicineService {
       Medicine(name: 'Cefixime', type: 'Capsule', price: 20.0),
     ];
   }
+}
+
+class Medicine {
+  final String name;
+  final String type;
+  final double price;
+
+  Medicine({required this.name, required this.type, required this.price});
 }

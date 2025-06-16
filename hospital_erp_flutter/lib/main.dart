@@ -6,10 +6,12 @@ import 'screens/dashboard/dashboard_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(HospitalERPApp());
+}
+
+class Firebase {
+  static Future<void> initializeApp({required options}) async {}
 }
 
 class HospitalERPApp extends StatelessWidget {
