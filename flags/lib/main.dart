@@ -14,7 +14,7 @@ class flags extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("My First Flutter Project"),
+          title: Text("Country Flags"),
           titleTextStyle: TextStyle(fontSize: 30, color: Colors.white),
           backgroundColor: Colors.blue,
         ),
